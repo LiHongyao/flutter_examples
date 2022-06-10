@@ -1,16 +1,15 @@
 import 'package:flutter/material.dart';
 
+// import 'package:flutter_examples/02_basic/01_Core.dart';
+// import 'package:flutter_examples/02_basic/02_LayoutBuilder.dart';
+import 'package:flutter_examples/02_basic/03_Text.dart';
 
-// import 'package:flutter_examples/02_layouts/01_core/layout_core.dart';
-// import 'package:flutter_examples/02_layouts/01_core/layout_builder.dart';
-// import 'package:flutter_examples/02_layouts/01_core/layout_flex.dart';
-import 'package:flutter_examples/02_layouts/01_core/layout_stack.dart';
 void main() {
-  runApp(const MyApp());
+  runApp(const App());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage()
+      home: const HomePage()
     );
   }
 }
