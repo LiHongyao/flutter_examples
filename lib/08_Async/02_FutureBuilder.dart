@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text("Future Builder"),
       ),
-      body: Container();
+      body: Container(),
     );
   }
 }
