@@ -95,7 +95,7 @@ class Details extends StatelessWidget {
 }*/
 
 /// 【示例2】：直接操作底层的 CustomPainter
-/*class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
+class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   final List<Snowflake> _snowflakes = List.generate(100, (index) => Snowflake());
 
@@ -185,6 +185,8 @@ class Snowflake {
       velocity = Random().nextDouble() * 4 + 2;
     }
   }
-}*/
+}
 
 /// 【示例3】 - 插件动画
+/// https://rive.app/
+
