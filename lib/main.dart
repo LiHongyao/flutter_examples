@@ -28,8 +28,9 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_examples/08_Async/02_FutureBuilder.dart';
 // import 'package:flutter_examples/08_Async/03_StreamBuilder.dart';
 
-
-import 'package:flutter_examples/09_animation/01_implicit.dart';
+// import 'package:flutter_examples/09_animation/01_implicit.dart';
+// import 'package:flutter_examples/09_animation/02_reveal.dart';
+import 'package:flutter_examples/09_animation/03_other.dart';
 
 void main() {
   runApp(const App());
