@@ -11,11 +11,11 @@ class HomePage extends StatefulWidget {
 }
 
 /// 【示例1】：Flutter -- Hero 动画
-/*class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     // -- 动画效果放慢5倍
-    timeDilation = 5.0;
+    timeDilation = 2.0;
     super.initState();
   }
 
@@ -92,7 +92,7 @@ class Details extends StatelessWidget {
       ),
     );
   }
-}*/
+}
 
 /// 【示例2】：直接操作底层的 CustomPainter
 /*class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
